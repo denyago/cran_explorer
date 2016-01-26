@@ -1,0 +1,4 @@
+test:
+  adapter: postgresql
+  database: r_mirror_ci_test
+  username: postgres

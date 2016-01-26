@@ -1,0 +1,7 @@
+language: ruby
+rvm:
+ - '2.2.1'
+before_script:
+ - psql -c 'create database r_mirror_ci_test;' -U postgres
+ - cp config/database.yml.travis config/database.yml
+script: bundle exec rspec spec

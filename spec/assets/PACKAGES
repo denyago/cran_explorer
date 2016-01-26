@@ -1,0 +1,1022 @@
+Package: A3
+Version: 1.0.0
+Depends: R (>= 2.15.0), xtable, pbapply
+Suggests: randomForest, e1071
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: abbyyR
+Version: 0.2.3
+Depends: R (>= 3.2.0)
+Imports: httr, XML, curl, RecordLinkage, readr
+Suggests: testthat, knitr (>= 1.11)
+License: MIT + file LICENSE
+NeedsCompilation: no
+
+Package: abc
+Version: 2.1
+Depends: R (>= 2.10), abc.data, nnet, quantreg, MASS, locfit
+License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: ABCanalysis
+Version: 1.1.0
+Depends: R (>= 2.10)
+Imports: Hmisc, plotrix
+License: GPL-3
+NeedsCompilation: no
+
+Package: abc.data
+Version: 1.0
+Depends: R (>= 2.10)
+License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: abcdeFBA
+Version: 0.4
+Depends: Rglpk,rgl,corrplot,lattice,R (>= 2.10)
+Suggests: LIM,sybil
+License: GPL-2
+NeedsCompilation: no
+
+Package: ABCoptim
+Version: 0.13.11
+License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: abcrf
+Version: 1.1
+Depends: R(>= 2.10.0)
+Imports: MASS, randomForest, parallel, foreach, doParallel
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: abctools
+Version: 1.0.4
+Depends: R (>= 2.10), abc, abind, parallel, plyr
+Suggests: ggplot2, abc.data
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: abd
+Version: 0.2-8
+Depends: R (>= 3.0), nlme, lattice, grid, mosaic
+Suggests: boot, car, ggplot2, plyr, HH, ICC, vcd, Hmisc
+License: GPL-2
+NeedsCompilation: no
+
+Package: abf2
+Version: 0.7-1
+License: Artistic-2.0
+NeedsCompilation: no
+
+Package: ABHgenotypeR
+Version: 1.0.0
+Imports: ggplot2, reshape2
+Suggests: knitr, rmarkdown
+License: GPL-3
+NeedsCompilation: no
+
+Package: abind
+Version: 1.4-3
+Depends: R (>= 1.5.0)
+License: LGPL (>= 2)
+NeedsCompilation: no
+
+Package: abn
+Version: 1.0
+Depends: Cairo, R (>= 2.15.1)
+Imports: methods
+Suggests: INLA, Rgraphviz
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: abodOutlier
+Version: 0.1
+Depends: cluster, R (>= 3.1.2)
+License: MIT + file LICENSE
+NeedsCompilation: no
+
+Package: AbsFilterGSEA
+Version: 0.1
+Depends: stats
+Imports: Rcpp
+LinkingTo: Rcpp, RcppArmadillo
+License: GPL-2
+NeedsCompilation: yes
+
+Package: abundant
+Version: 1.0
+Depends: R (>= 2.10), QUIC
+License: GPL-2
+NeedsCompilation: yes
+
+Package: acc
+Version: 1.2.4
+Depends: R (>= 2.10), zoo, mhsmm, PhysicalActivity, nleqslv, plyr,
+        methods
+License: GNU General Public License (>= 3)
+NeedsCompilation: no
+
+Package: accelerometry
+Version: 2.2.5
+Depends: R (>= 3.0.0)
+Imports: Rcpp (>= 0.11.0)
+LinkingTo: Rcpp
+License: GPL-2
+NeedsCompilation: yes
+
+Package: AcceptanceSampling
+Version: 1.0-4
+Depends: methods, R(>= 2.4.0), stats
+Imports: graphics, utils
+License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: ACCLMA
+Version: 1.0
+License: GPL-2
+NeedsCompilation: no
+
+Package: accrual
+Version: 1.1
+Depends: R(>= 2.8.0)
+Imports: fgui,SMPracticals,tcltk
+License: GPL-2
+NeedsCompilation: no
+
+Package: accrued
+Version: 1.3.5
+Depends: R (>= 2.14.1), grid
+License: GPL-3
+NeedsCompilation: no
+
+Package: ACD
+Version: 1.5.3
+Depends: R(>= 2.13.0)
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: ACDm
+Version: 1.0.3
+Depends: R(>= 2.10.0)
+Imports: plyr, dplyr, ggplot2, Rsolnp, zoo, graphics
+Suggests: optimx
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: acepack
+Version: 1.3-3.3
+License: MIT + file LICENSE
+NeedsCompilation: yes
+
+Package: acid
+Version: 1.0
+Depends: gamlss,gamlss.dist,Hmisc
+Suggests: ineq
+License: GPL-3
+NeedsCompilation: no
+
+Package: acm4r
+Version: 1.0
+Depends: MASS
+License: GPL
+NeedsCompilation: no
+
+Package: acmeR
+Version: 1.1.0
+Depends: R (>= 3.1.1)
+Imports: foreign (>= 0.8-63), grDevices (>= 3.1.1), graphics (>=
+        3.1.1), stats (>= 3.1.1), utils (>= 3.1.1)
+Suggests: knitr, devtools
+License: MIT + file LICENSE
+NeedsCompilation: no
+
+Package: ACNE
+Version: 0.8.1
+Depends: R (>= 3.0.0), aroma.affymetrix (>= 2.14.0)
+Imports: MASS, R.methodsS3 (>= 1.7.0), R.oo (>= 1.19.0), R.utils (>=
+        2.1.0), matrixStats (>= 0.14.2), R.filesets (>= 2.9.0),
+        aroma.core (>= 2.14.0)
+Suggests: DNAcopy
+License: LGPL (>= 2.1)
+NeedsCompilation: no
+
+Package: acnr
+Version: 0.2.4
+Depends: R (>= 2.10), R.utils, xtable
+License: LGPL (>= 2.1)
+NeedsCompilation: no
+
+Package: acopula
+Version: 0.9.2
+Suggests: mvtnorm
+License: GPL-2
+NeedsCompilation: no
+
+Package: acp
+Version: 2.1
+Depends: tseries,quantmod
+License: GPL-2
+NeedsCompilation: no
+
+Package: aCRM
+Version: 0.1.1
+Imports: dummies, randomForest, kernelFactory, ada
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: acs
+Version: 1.2
+Depends: R (>= 2.10)
+Imports: stringr, methods, plyr, XML
+License: GPL-3
+NeedsCompilation: no
+
+Package: ACSNMineR
+Version: 0.15.11
+Depends: R (>= 3.1.0),ggplot2, gridExtra
+Suggests: knitr, rmarkdown
+License: GPL-2
+NeedsCompilation: no
+
+Package: acss
+Version: 0.2-5
+Depends: R (>= 2.15.0), acss.data
+Imports: zoo
+Suggests: effects, lattice
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: acss.data
+Version: 1.0
+Depends: R (>= 2.10)
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: ACSWR
+Version: 1.0
+Imports: MASS
+License: GPL-2
+NeedsCompilation: no
+
+Package: ACTCD
+Version: 1.0-0
+Depends: R (>= 2.15.1), R.methodsS3
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: Actigraphy
+Version: 1.3.2
+Depends: R (>= 2.14.0), fda
+Imports: SDMTools
+Suggests: lattice
+License: Apache License (== 2.0)
+NeedsCompilation: no
+
+Package: activity
+Version: 1.0
+Depends: methods
+Imports: circular, overlap, pbapply,
+License: GPL-3
+NeedsCompilation: no
+
+Package: activpalProcessing
+Version: 1.0
+Depends: R (>= 2.10), graphics, grDevices, stats, utils
+Imports: chron
+License: GPL-2 | GPL-3
+NeedsCompilation: no
+
+Package: actuar
+Version: 1.1-10
+Depends: R (>= 2.6.0)
+Imports: stats, graphics
+Suggests: MASS
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: ActuDistns
+Version: 3.0
+Depends: R (>= 2.15.0), reliaR, actuar, hypergeo
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: ada
+Version: 2.0-3
+Depends: R(>= 2.10),rpart
+License: GPL
+NeedsCompilation: no
+
+Package: adabag
+Version: 4.1
+Depends: rpart, mlbench, caret
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: adagio
+Version: 0.6.3
+Depends: R (>= 3.0.0)
+Imports: graphics, stats, quadprog
+License: GPL (>= 3)
+NeedsCompilation: yes
+
+Package: AdapEnetClass
+Version: 1.2
+Depends: imputeYn, glmnet, lars, quadprog, R (>= 3.0.2)
+License: GPL-2
+NeedsCompilation: no
+
+Package: adaptDA
+Version: 1.0
+Depends: MASS
+License: GPL-2
+NeedsCompilation: no
+
+Package: AdaptFit
+Version: 0.2-2
+Depends: SemiPar, MASS, nlme, cluster
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: AdaptFitOS
+Version: 0.62
+Depends: nlme, MASS, splines
+Imports: mgcv, SemiPar
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: AdaptGauss
+Version: 1.1.0
+Depends: R (>= 2.10)
+Imports: shiny, caTools, mclust, methods
+License: GPL-3
+NeedsCompilation: no
+
+Package: AdaptiveSparsity
+Version: 1.4
+Depends: R (>= 3.0.2), Rcpp (>= 0.8.0)
+LinkingTo: Rcpp, RcppArmadillo (>= 0.2.0)
+Suggests: MASS, Matrix
+License: LGPL (>= 3.0)
+NeedsCompilation: yes
+
+Package: adaptivetau
+Version: 2.2
+Depends: R (>= 2.10.1)
+Enhances: compiler
+License: GPL (>= 3)
+NeedsCompilation: yes
+
+Package: adaptMCMC
+Version: 1.1
+Depends: R (>= 2.14.1), parallel, coda, Matrix
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: adaptsmoFMRI
+Version: 1.1
+Depends: R(>= 2.15.2), Matrix, coda, mvtnorm, MCMCpack, spatstat,
+        parallel
+License: GPL-2
+NeedsCompilation: no
+
+Package: adaptTest
+Version: 1.0
+Depends: lattice
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: addhazard
+Version: 1.0.0
+Depends: R (>= 3.1.2)
+Imports: ahaz, survival, rootSolve
+License: GPL-2
+NeedsCompilation: no
+
+Package: additivityTests
+Version: 1.1-4
+Suggests: knitr
+License: GPL-3
+NeedsCompilation: no
+
+Package: addreg
+Version: 2.0
+Depends: R (>= 3.0.1)
+Imports: splines, combinat, glm2
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: ADDT
+Version: 1.0
+License: GPL-2
+NeedsCompilation: no
+
+Package: ade4
+Version: 1.7-3
+Depends: R (>= 2.10)
+Imports: graphics, grDevices, methods, stats, utils
+Suggests: ade4TkGUI, adegraphics, ape, CircStats, deldir, lattice,
+        maptools, MASS, pixmap, sp, spdep, splancs, waveslim
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: ade4TkGUI
+Version: 0.2-9
+Depends: ade4 (>= 1.4-3), adegraphics
+Imports: graphics, grDevices, lattice, stats, tcltk, tkrplot, utils
+Suggests: pixmap
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: adegenet
+Version: 2.0.0
+Depends: R (>= 2.14), methods, ade4
+Imports: utils, stats, grDevices, MASS, igraph, ape, shiny, ggplot2,
+        seqinr, parallel, spdep, boot, reshape2, dplyr (>= 0.4.1)
+Suggests: pegas, hierfstat, akima, maps, splancs, adehabitat, tripack,
+        testthat
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: adegraphics
+Version: 1.0-4
+Depends: R (>= 3.0.2)
+Imports: ade4, graphics, grid, KernSmooth, lattice, methods,
+        RColorBrewer, sp (>= 1.1-1), stats
+Suggests: Guerry, maptools, pixmap, spdep, splancs
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: adehabitat
+Version: 1.8.18
+Depends: R (>= 2.10.0), ade4, tkrplot, shapefiles, sp, graphics
+Imports: grDevices, methods, stats, utils
+Suggests: spatstat, MASS, CircStats
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: adehabitatHR
+Version: 0.4.14
+Depends: R (>= 3.0.1), sp, methods, deldir, ade4, adehabitatMA,
+        adehabitatLT
+Imports: graphics, grDevices, stats
+Suggests: maptools, tkrplot, MASS, rgeos
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: adehabitatHS
+Version: 0.3.12
+Depends: R (>= 3.0.1), sp, methods, ade4, adehabitatMA, adehabitatHR
+Imports: graphics, grDevices, stats
+Suggests: maptools, tkrplot, MASS, rgeos
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: adehabitatLT
+Version: 0.3.20
+Depends: R (>= 2.10.0), sp, methods, ade4, adehabitatMA, CircStats,
+        stats
+Imports: graphics, grDevices, utils
+Suggests: maptools, tkrplot, MASS
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: adehabitatMA
+Version: 0.3.10
+Depends: R (>= 2.10.0), sp, methods
+Imports: utils, graphics, grDevices, stats
+Suggests: maptools, tkrplot, MASS
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: adephylo
+Version: 1.1-6
+Depends: methods, ade4
+Imports: phylobase, ape, adegenet
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: AdequacyModel
+Version: 1.0.8
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: ADGofTest
+Version: 0.3
+License: GPL
+NeedsCompilation: no
+
+Package: adhoc
+Version: 1.0
+Depends: R (>= 2.15), spider, ape, polynom
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: adimpro
+Version: 0.7.8
+Depends: R (>= 2.12.0), grDevices
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: adlift
+Version: 1.3-2
+Depends: EbayesThresh
+License: GPL
+NeedsCompilation: yes
+
+Package: ADM3
+Version: 1.3
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: AdMit
+Version: 2.0.1
+Depends: mvtnorm
+Suggests: coda
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: ADMMnet
+Version: 0.1
+Depends: Matrix (>= 1.2-3)
+Imports: Rcpp (>= 0.12.2)
+LinkingTo: Rcpp, RcppEigen
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: ADPclust
+Version: 0.6.5
+Depends: R (>= 3.0.0),
+Imports: dplyr, cluster, fields, knitr
+Suggests: rmarkdown
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: ads
+Version: 1.5-2.2
+Imports: ade4, spatstat
+License: GPL-2
+NeedsCompilation: yes
+
+Package: adwave
+Version: 1.1
+Depends: waveslim
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: AEDForecasting
+Version: 0.10.0
+Depends: R (>= 3.1.2)
+Imports: changepoint, forecast, signal
+Suggests: R.rsp
+License: GPL-3
+NeedsCompilation: no
+
+Package: aemo
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Imports: dplyr (>= 0.2), stringr (>= 0.6.2), assertthat (>= 0.1),
+        lubridate (>= 1.3.3)
+Suggests: testthat, httr (>= 0.3)
+License: GPL-2
+NeedsCompilation: no
+
+Package: AER
+Version: 1.2-4
+Depends: R (>= 2.13.0), car (>= 2.0-1), lmtest, sandwich, survival (>=
+        2.37-5), zoo
+Imports: stats, Formula (>= 0.2-0)
+Suggests: boot, dynlm, effects, foreign, ineq, KernSmooth, lattice,
+        MASS, mlogit, nlme, nnet, np, plm, pscl, quantreg, ROCR,
+        sampleSelection, scatterplot3d, strucchange, systemfit, rgl,
+        truncreg, tseries, urca
+License: GPL-2 | GPL-3
+NeedsCompilation: no
+
+Package: AF
+Version: 0.1.1
+Depends: stats, base, graphics, survival, drgee, R (>= 3.0.0)
+License: GPL-2 | GPL-3
+NeedsCompilation: no
+
+Package: afex
+Version: 0.15-2
+Depends: R (>= 3.0.0), lme4 (>= 1.0.5), reshape2, lsmeans (>= 2.17)
+Imports: stringr, coin, Matrix, pbkrtest (>= 0.3-6), car, stats, utils,
+        methods
+Suggests: ascii, xtable, parallel, plyr, optimx, nloptr, knitr,
+        lattice, multcomp, testthat, mlmRev, dplyr
+License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: AFLPsim
+Version: 0.4-2
+Depends: R (>= 2.15.0)
+Imports: adegenet, introgress
+Suggests: R.rsp
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: AFM
+Version: 1.1.0
+Depends: R (>= 3.1.3)
+Imports: data.table(>= 1.9.6),stringr(>= 1.0.0),gstat(>=
+        1.0-26),fractaldim(>= 0.8-4),rgl(>= 0.95.1337),pracma(>=
+        1.8.6),fftwtools(>= 0.9-7),geoR(>= 1.7-5.1),grid(>=
+        3.1.3),gridExtra(>= 2.0.0),moments(>= 0.14),ggplot2(>=
+        1.0.1),sp(>= 1.2-0),png(>= 0.1-7),plyr(>= 1.8.3),methods(>=
+        3.1.3)
+License: AGPL-3
+NeedsCompilation: no
+
+Package: aftgee
+Version: 1.0-0
+Imports: MASS, BB, survival, geepack
+Suggests: copula
+License: GPL (>= 3)
+NeedsCompilation: yes
+
+Package: AGD
+Version: 0.35
+Depends: R (>= 2.10.0)
+Imports: gamlss, gamlss.dist
+License: GPL-2 | GPL-3
+NeedsCompilation: no
+
+Package: AggregateR
+Version: 0.0.2
+Imports: dummy, stats, utils, methods
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: agop
+Version: 0.1-4
+Depends: R (>= 2.12.0), stats, grDevices, graphics, Matrix, igraph
+License: LGPL (>= 3)
+NeedsCompilation: yes
+
+Package: agRee
+Version: 0.4-0
+Depends: R (>= 3.0.2), miscF (>= 0.1-2), lme4 (>= 1.0-4)
+Imports: R2jags (>= 0.03-11), coda (>= 0.16-1)
+License: GPL
+NeedsCompilation: no
+
+Package: Agreement
+Version: 0.8-1
+Depends: R (>= 2.1.0), R2HTML
+License: GPL-2
+NeedsCompilation: no
+
+Package: agricolae
+Version: 1.2-3
+Imports: klaR, MASS, nlme, cluster, spdep, AlgDesign, graphics
+License: GPL
+NeedsCompilation: no
+
+Package: agridat
+Version: 1.12
+Imports: graphics, grDevices, grid, lattice, reshape2, stats
+Suggests: AER, agricolae (>= 1.2), betareg, car, coin, corrgram,
+        effects, equivalence, FrF2, gam, gstat, HH, knitr,
+        latticeExtra, lme4 (>= 1.1-5), lucid, mapproj, maps, MASS,
+        MCMCglmm, mgcv, nlme, ordinal, pls, pscl, qtl, sp, survival,
+        vcd
+License: GPL-2
+NeedsCompilation: no
+
+Package: agrmt
+Version: 1.39.3
+License: GPL-3
+NeedsCompilation: no
+
+Package: AGSDest
+Version: 2.3
+Imports: stats, graphics, grDevices, ldbounds
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: agsemisc
+Version: 1.3-1
+Depends: R (>= 2.12.0), lattice
+Imports: grid, MASS
+License: GPL-2
+NeedsCompilation: no
+
+Package: ahaz
+Version: 1.14
+Depends: R (>= 2.10), survival, Matrix
+License: GPL-2
+NeedsCompilation: yes
+
+Package: ahp
+Version: 0.2.4
+Depends: R (>= 3.0)
+Imports: utils, data.tree, yaml, formattable, DiagrammeR
+Suggests: shiny, shinyAce, shinythemes, shinyjs, testthat, knitr,
+        rmarkdown
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: AHR
+Version: 1.3
+Depends: survival
+Imports: stats, MASS, etm, Rcpp
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: testthat
+License: GPL (>= 3)
+NeedsCompilation: yes
+
+Package: AICcmodavg
+Version: 2.0-3
+Depends: R (>= 3.0.0)
+Imports: methods, stats, graphics, lattice, MASS, Matrix, nlme, stats4,
+        unmarked, VGAM, xtable
+Suggests: betareg, coxme, lme4, maxlike, nnet, ordinal, pscl, R2jags,
+        R2OpenBUGS, R2WinBUGS, survival
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: AID
+Version: 1.5
+Depends: R (>= 3.1.1)
+Imports: MASS, tseries, nortest
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: aidar
+Version: 1.0.0
+Depends: XML
+Suggests: testthat
+License: LGPL (>= 2)
+NeedsCompilation: no
+
+Package: AIM
+Version: 1.01
+Depends: survival
+Imports: survival
+License: LGPL-2
+NeedsCompilation: no
+
+Package: Ake
+Version: 1.0
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: akima
+Version: 0.5-12
+Depends: R (>= 2.0.0)
+Imports: sp
+License: ACM | file LICENSE
+License_restricts_use: yes
+NeedsCompilation: yes
+
+Package: akmeans
+Version: 1.1
+License: GPL-2
+NeedsCompilation: no
+
+Package: alabama
+Version: 2015.3-1
+Depends: R (>= 2.10.1), numDeriv
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: ald
+Version: 1.0
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: ALDqr
+Version: 0.5
+Depends: R (>= 2.15.0)
+Imports: HyperbolicDist
+License: GPL (>= 3.0)
+NeedsCompilation: no
+
+Package: aLFQ
+Version: 1.3.3
+Depends: R (>= 2.15.0)
+Imports: data.table, plyr, caret, seqinr, lattice, randomForest, ROCR,
+        reshape2, protiq, bio3d
+Suggests: testthat
+License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: AlgDesign
+Version: 1.1-7.3
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: AlgebraicHaploPackage
+Version: 1.2
+Depends: R (>= 3.1.3)
+Suggests: compiler
+License: GPL-2
+NeedsCompilation: no
+
+Package: algstat
+Version: 0.0.2
+Depends: mpoly
+Imports: stringr, reshape2, Rcpp
+LinkingTo: Rcpp
+License: GPL-2
+NeedsCompilation: yes
+
+Package: alineR
+Version: 1.1.2
+License: GPL-3
+NeedsCompilation: yes
+
+Package: ALKr
+Version: 0.5.3.1
+Depends: R (>= 2.15.2)
+Imports: MASS, methods, Rcpp (>= 0.10.2)
+LinkingTo: Rcpp
+License: BSD_3_clause + file LICENSE
+NeedsCompilation: yes
+
+Package: allan
+Version: 1.01
+Depends: biglm
+License: GPL
+NeedsCompilation: no
+
+Package: allanvar
+Version: 1.1
+Depends: R (>= 2.10.0), gplots
+License: GPL-2
+NeedsCompilation: no
+
+Package: alleHap
+Version: 0.9.2
+Imports: abind, tools, stats, utils
+Suggests: knitr
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: allelematch
+Version: 2.5
+Depends: dynamicTreeCut
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: AlleleRetain
+Version: 1.3.1
+Depends: R (>= 2.11.0)
+Suggests: pedigree
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: allelic
+Version: 0.1
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: AllPossibleSpellings
+Version: 1.1
+License: GPL-2
+NeedsCompilation: no
+
+Package: alm
+Version: 0.4.0
+Imports: ggplot2, plyr, stringr, reshape, reshape2, httr, grid,
+        jsonlite, lubridate
+Suggests: testthat, roxygen2, rplos, knitr
+License: MIT + file LICENSE
+NeedsCompilation: no
+
+Package: alphahull
+Version: 2.0
+Depends: ggplot2, tripack, sgeostat, spatstat, splancs
+License: file LICENSE
+License_restricts_use: yes
+NeedsCompilation: yes
+
+Package: alphaOutlier
+Version: 1.1.0
+Depends: Rsolnp, nleqslv, quantreg
+License: GPL-3
+NeedsCompilation: no
+
+Package: alphashape3d
+Version: 1.1
+Depends: geometry, rgl
+Suggests: alphahull
+License: GPL-2
+NeedsCompilation: yes
+
+Package: alr3
+Version: 2.0.5
+Depends: R (>= 2.1.1), car
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: alr4
+Version: 1.0.5
+Depends: R (>= 2.1.1), car, effects
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: ALS
+Version: 0.0.6
+Depends: nnls (>= 1.1), Iso, R (>= 2.10)
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: ALSCPC
+Version: 1.0
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: ALTopt
+Version: 0.1.1
+Depends: R (>= 3.0.0)
+Imports: cubature (>= 1.0), lattice (>= 0.20)
+License: GPL-3
+NeedsCompilation: no
+
+Package: amap
+Version: 0.8-14
+Depends: R (>= 2.10.0)
+Suggests: Biobase
+License: GPL
+NeedsCompilation: yes
+
+Package: AMAP.Seq
+Version: 1.0
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: ameco
+Version: 0.2
+Depends: R(>= 2.10.0)
+Suggests: knitr, rmarkdown, dplyr, ggplot2, testthat, xml2
+License: CC0
+NeedsCompilation: no
+
+Package: amei
+Version: 1.0-7
+License: GPL
+NeedsCompilation: yes
+
+Package: Amelia
+Version: 1.7.4
+Depends: R (>= 3.0.2), Rcpp (>= 0.11)
+Imports: foreign, utils, grDevices, graphics, methods, stats
+LinkingTo: Rcpp (>= 0.11), RcppArmadillo
+Suggests: tcltk, Zelig
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: amen
+Version: 1.1
+Depends: R (>= 3.2.0)
+Suggests: coda,network,knitr
+License: GPL-3
+NeedsCompilation: no
+
+Package: AmericanCallOpt
+Version: 0.95
+Depends: R (>= 2.0.0)
+License: GPL-3
+NeedsCompilation: no
+
+Package: AMGET
+Version: 1.0
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: aml
+Version: 0.1-1
+Depends: R (>= 2.10), lars
+Suggests: MASS
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: AMOEBA
+Version: 1.1
+Depends: snowfall, rlecuyer, spdep
+Suggests: maptools, plotrix,
+License: GPL (>= 2)
+NeedsCompilation: no
+
+Package: AMORE
+Version: 0.2-15
+License: GPL (>= 2)
+NeedsCompilation: yes
+
+Package: AmpliconDuo
+Version: 1.1
+Depends: R (>= 2.10), stats, ggplot2, xtable
+License: GPL (>= 3)
+NeedsCompilation: no
+
+Package: anacor
+Version: 1.0-6
+Depends: R (>= 3.0.2)
+Imports: graphics, stats, car, scatterplot3d, colorspace, fda, rgl,
+        splines, grDevices
+License: GPL-2
+NeedsCompilation: yes
