@@ -73,9 +73,12 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
+    memoizable (0.4.2)
+      thread_safe (~> 0.3, >= 0.3.1)
     method_source (0.8.2)
     mime-types (2.99)
     mini_portile2 (2.0.0)
+    minitar (0.5.4)
     minitest (5.8.4)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
@@ -181,6 +184,8 @@ DEPENDENCIES
   database_cleaner
   factory_girl_rails
   jazz_fingers
+  memoizable
+  minitar
   pg
   rails (~> 4.2.5)
   rspec

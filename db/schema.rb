@@ -40,6 +40,8 @@ ActiveRecord::Schema.define(version: 20160126105009) do
     t.datetime "updated_at",       null: false
   end
 
+  add_index "packages", ["name", "version"], name: "index_packages_on_name_and_version", using: :btree
+
   create_table "people", force: :cascade do |t|
     t.string   "name"
     t.string   "email"

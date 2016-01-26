@@ -1,0 +1,14 @@
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Version</th>
+    <th>Date/Publication</th>
+  </tr>
+  <% @packages.each do |package| %>
+    <tr>
+      <td><%= package.name %></td>
+      <td><%= package.version %></td>
+      <td><%= package.date_publication %></td>
+    </tr>
+  <% end %>
+</table>

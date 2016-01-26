@@ -3,8 +3,10 @@ source 'https://rubygems.org'
 gem 'rails', '~> 4.2.5'
 
 gem 'pg'
+gem 'memoizable'
 
-gem 'treetop-dcf'
+gem 'treetop-dcf', require: 'dcf'
+gem 'minitar'
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 
